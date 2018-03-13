@@ -1,16 +1,20 @@
 require File.expand_path('../Deck.rb', __FILE__)
 
-class Dealer < Deck
+class Dealer
+  def initialize(deck)
+    @deck = deck
+  end
+
   def count_the_deck
-    cards.count
+    @deck.cards.count
   end
 
   def deal_a_card
-    cards.shift
+    @deck.cards.shift
   end
 
   def shuffle_the_deck
-    cards.shuffle
+    @deck.cards.shuffle
   end
 
 end

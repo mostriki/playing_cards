@@ -3,7 +3,7 @@ require 'pry'
 require 'dealer'
 
 describe ('Dealer') do
-  the_dealer = Dealer.new
+  the_dealer = Dealer.new(Deck.new)
 
   it ('returns a deck of 52 playing cards') do
     expect(the_dealer.count_the_deck).to eq 52
