@@ -12,15 +12,15 @@ class Deck
   end
 
   def count_the_deck
-    @cards.count
+    cards.count
   end
 
-  def draw_a_card(number)
-    number.times { @cards.shift.output }
+  def draw_a_card
+    cards.shift.to_s
   end
 
   #Insert method to shuffle_the_deck
-
+  
 end
 
 class Card
@@ -30,8 +30,8 @@ class Card
     @suit = suit
   end
 
-  def output
-    puts "#{@rank.capitalize} of #{@suit.capitalize}"
+  def to_s
+    "#{@rank.capitalize} of #{@suit.capitalize}"
   end
 
 end
@@ -41,4 +41,4 @@ end
 test_deck = Deck.new
 
 # puts test_deck.inspect
-puts test_deck.draw_a_card(1)
+puts test_deck.inspect
