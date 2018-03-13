@@ -8,7 +8,8 @@ class Deck
     @suits = ['hearts', 'clubs', 'diamonds', 'spades']
     @cards = []
 
-    @ranks.flat_map { |rank| @suits.map { |suit| @cards << Card.new(rank, suit) } }
+    @ranks.flat_map { |rank| @suits.map { 
+                      |suit| @cards << "#{rank.capitalize} of #{suit.capitalize}" }}
   end
 
   def count_the_deck
@@ -16,25 +17,25 @@ class Deck
   end
 
   def draw_a_card
-    cards.shift.to_s
+    cards.shift
   end
 
   #Insert method to shuffle_the_deck
   
 end
 
-class Card
-  attr_reader :rank, :suit
-  def initialize(rank, suit)
-    @rank = rank
-    @suit = suit
-  end
+# class Card
+#   attr_reader :rank, :suit
+#   def initialize(rank, suit)
+#     @rank = rank
+#     @suit = suit
+#   end
 
-  def to_s
-    "#{rank.capitalize} of #{suit.capitalize}"
-  end
+#   # def to_s
+#   #   "#{rank.capitalize} of #{suit.capitalize}"
+#   # end
 
-end
+# end
 
 
 #Run it here
