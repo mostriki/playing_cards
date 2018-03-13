@@ -3,9 +3,10 @@
 class Deck
 
   def initialize
-    # Insert rank instance variable
-    # Insert suite instance variable
-    # Insert card array
+    @ranks = ['ace', 'two', 'three', 'four', 'five', 'six', 'seven', 
+              'eight', 'nine', 'ten', 'jack', 'queen', 'king']
+    @suites = ['heart', 'club', 'diamond', 'spade']
+    @cards = []
   end
 
   #Insert method to shuffle the deck
