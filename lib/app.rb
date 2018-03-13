@@ -40,6 +40,5 @@ end
 #Run it here
 test_deck = Deck.new
 
-puts test_deck.count_the_deck
-puts test_deck.draw_a_card(2)
-puts test_deck.count_the_deck
+# puts test_deck.inspect
+puts test_deck.draw_a_card(1)
