@@ -1,12 +1,8 @@
-# _Title_
+# _Playing Cards_
 
 #### _An independent project using Ruby to build a playing card application, 03.11.2018_
 
 #### By _Riki Montgomery_
-
-## Description
-
-_..._
 
 ## Setup/Installation Requirements
 
@@ -14,9 +10,9 @@ _..._
 
 2. _`$ cd playing_cards/`_
 
-3. _`$ ruby app.rb`_
+3. _`$ bundle`_
 
-4. _Open [http://localhost:4567/](http://localhost:4567/) in your favorite web browser._
+4. _`$ rspec`_
 
 ## Support and contact details
 
