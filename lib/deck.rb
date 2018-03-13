@@ -5,7 +5,6 @@ class Deck
               '8', '9', '10', 'jack', 'queen', 'king']
     @suits = ['hearts', 'clubs', 'diamonds', 'spades']
     @cards = []
-    @color
 
     @ranks.flat_map { |rank| @suits.map { 
                       |suit| @cards << "#{rank.capitalize} of #{suit.capitalize}" }}

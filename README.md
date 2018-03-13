@@ -1,8 +1,12 @@
-# _Playing Cards_
+# Playing Cards
 
-#### _An independent project using Ruby to build a playing card application, 03.11.2018_
+#### An independent project using Ruby to build a playing card application, 03.11.2018
 
-#### By _Riki Montgomery_
+#### By Riki Montgomery
+
+## Description
+
+The goal of this project was to write a set of classes that represent the feeling of playing with a deck of cards. You should be able to shuffle the deck and deal out one card at a time until the deck is empty. Applying the principals of object oriented design made this a really fun exercise to do. Especially because I am about to finish Sandi Metz's book on _Practical Object-Oriented Design in Ruby_. I would like to explore incorporating a class for Cards and filling out each of the classes with additional features, like suite color and playing a match.
 
 ## Setup/Installation Requirements
 
