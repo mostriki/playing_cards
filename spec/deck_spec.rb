@@ -1,6 +1,6 @@
 require 'rspec'
 require 'pry'
-require 'app'
+require 'deck'
 
 describe ('Deck') do
   test_deck = Deck.new
