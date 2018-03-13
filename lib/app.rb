@@ -20,25 +20,14 @@ class Deck
     cards.shift
   end
 
-  #Insert method to shuffle_the_deck
-  
+  def shuffle_the_deck
+    cards.shuffle
+  end
+
 end
-
-# class Card
-#   attr_reader :rank, :suit
-#   def initialize(rank, suit)
-#     @rank = rank
-#     @suit = suit
-#   end
-
-#   # def to_s
-#   #   "#{rank.capitalize} of #{suit.capitalize}"
-#   # end
-
-# end
 
 
 #Run it here
 test_deck = Deck.new
 
-puts test_deck.draw_a_card
+puts test_deck.shuffle_the_deck
