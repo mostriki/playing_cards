@@ -31,7 +31,7 @@ class Card
   end
 
   def to_s
-    "#{@rank.capitalize} of #{@suit.capitalize}"
+    "#{rank.capitalize} of #{suit.capitalize}"
   end
 
 end
@@ -40,5 +40,4 @@ end
 #Run it here
 test_deck = Deck.new
 
-# puts test_deck.inspect
-puts test_deck.inspect
+puts test_deck.draw_a_card
