@@ -9,16 +9,19 @@ class Deck
     @cards = []
 
     @ranks.flat_map { |rank| @suits.map { |suit| @cards << Card.new(rank, suit) } }
-    # puts @cards.inspect
   end
 
-  #Insert method to shuffle the deck
+  def shuffle_the_deck
+    @cards.shuffle!
+  end
 
   #Insert method to draw cards from the deck one at a time until the deck is empty
+  
 
   def count_the_deck
     @cards.count
   end
+
 end
 
 class Card
@@ -32,6 +35,6 @@ end
 
 
 #Run it here
-# test_deck = Deck.new
+test_deck = Deck.new
 
-# puts test_deck.count_the_deck
+puts test_deck.inspect
