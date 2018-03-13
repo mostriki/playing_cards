@@ -1,6 +1,6 @@
 # Playing Cards
 
-#### An independent project using Ruby to build a playing card application, 03.11.2018
+#### An independent project using Ruby to build a playing card application, 03.12.2018
 
 #### By Riki Montgomery
 
