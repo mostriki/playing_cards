@@ -9,8 +9,8 @@ class Dealer
     @deck.cards.count
   end
 
-  def deal_a_card
-    @deck.cards.shift
+  def deal_a_card(number)
+    number.times { puts @deck.cards.shift}
   end
 
   def shuffle_the_deck
