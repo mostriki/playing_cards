@@ -6,7 +6,11 @@
 
 ## Description
 
-The goal of this project was to write a set of classes that represent the feeling of playing with a deck of cards. You should be able to shuffle the deck and deal out one card at a time until the deck is empty. Applying the principals of object oriented design made this a really fun exercise to do. Especially because I am about to finish Sandi Metz's book on _Practical Object-Oriented Design in Ruby_. I would like to explore incorporating a class for Cards and filling out each of the classes with additional features, like suite color and playing a match.
+The goal of this project was to write a set of classes that represent the feeling of playing with a deck of cards. You should be able to shuffle the deck and deal out one card at a time until the deck is empty.
+
+## Further Exploration
+
+The classes could be improved by adding card colors to Deck or giving Dealer more features. If the application were a little larger, I might discover more ways to break up the application into new and different classes. I would add players, a card class, and even an automatic card shuffler to shuffle the deck for the dealer.
 
 ## Setup/Installation Requirements
 
@@ -14,9 +18,11 @@ The goal of this project was to write a set of classes that represent the feelin
 
 2. _`$ cd playing_cards/`_
 
-3. _`$ bundle`_
+3. _Run `$ bundle`_
 
-4. _`$ rspec`_
+4. _Run `$ ruby app.rb`_
+
+5. _Run `$ rspec` to test the application._
 
 ## Support and contact details
 
