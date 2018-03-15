@@ -8,9 +8,9 @@ describe ('Dealer') do
   it ('returns a deck of 52 playing cards') do
     expect(the_dealer.count_the_deck).to eq 52
   end
-  
+
   it ('returns a single playing card from the front of the deck') do
-    expect(the_dealer.deal_a_card).to eq 'Ace of Hearts'
+    expect(the_dealer.deal_a_card(1)).to eq 1
   end
 
   it ('returns a shuffled deck playing cards') do
